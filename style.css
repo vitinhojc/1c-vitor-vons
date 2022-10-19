@@ -1,22 +1,41 @@
   .lista {
-  color:red;
+  color:black;
   font-size: 30;
  
 }
 
   .imagens {
-  text-align: center
+  text-align: center;
   background: black;
  }
-.cabecalho {
+
+ .cabecalho {
    border-bottom-style: solid;
-   margin-left: -8px;
-   margin-right: -8px;
    background: purple;
-   padding-top: 5px;
+   margin-left: -8px;  
+   margin-right: -8px;
+   margin-top: -8px;
+   padding: 1px;
+  }
+  #cabecalho2 {
+   color: blue;
+   text-align: center;
+ }
+   .rodape {
+   border-top-style: solid;
+   background: purple;
+   margin-left: -8px;  
+   margin-right: -8px;
+   margin-top: -8px;
+   padding: 1px;
+  }
+  #rodape2 {
+   color: blue;
+   text-align: center;
+ }
+   
 }
- 
-  
+
 #destaque {
    border: Spx;
    border-style: dashed;
