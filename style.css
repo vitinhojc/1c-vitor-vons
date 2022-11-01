@@ -1,76 +1,101 @@
-  .lista {
-  color:black;
-  font-size: 30;
- 
+.cabecalho {
+    border-bottom-style: solid;
+    background: greenyellow;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 1px;
 }
 
-  .imagens {
-  text-align: center;
-  background: black;
- }
-
- .cabecalho {
-   border-bottom-style: solid;
-   background: purple;
-   margin-left: -8px;  
-   margin-right: -8px;
-   margin-top: -8px;
-   padding: 1px;
-  }
-  #cabecalho2 {
-   color: blue;
-   text-align: center;
- }
-   .rodape {
-   border-top-style: solid;
-   background: purple;
-   margin-left: -8px;  
-   margin-right: -8px;
-   margin-top: -8px;
-   padding: 1px;
-  }
-  #rodape2 {
-   color: blue;
-   text-align: center;
- }
-   
+#cabecalho2 {
+    color: blue;
+    text-align: center;
 }
+
+#menu {
+    text-align: center;
+    font-size: 30;
+    
+}
+
+.rodape {
+    border-top-style: solid;
+    background: greenyellow;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 1px;
+}
+
+#rodape2 {
+    color: blue;
+    text-align: center;
+}
+
+.lista {
+    font-size: 30;
+    color: red;
+}
+
+.imagens {
+    text-align: center;
+    background: whitesmoke;
+}
+
+
 
 #destaque {
-   border: Spx;
-   border-style: dashed;
-   border-color: blue;
-   border-top-left-radius: 500px;
-   border-top-right-radius: 500px;
-   border-bottom-left-radius: 500px;
-   border-bottom-right-radius: 500px;
-   padding-top: 30px;
-   padding-bottom: 30px;
-   margin-left: 500px;
-   margin-right: 500px;
-   background: yellow;
+    border: 5px;
+    border-style: dashed;
+    border-color: blue;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background: yellow;
 }
 
+#lateral {
+    float: right;
+}
 
+#imagem {
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: green;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
 
 #link {
- text-align: center;
+    text-align: center;
 }
 
 p {
-color: red ;
-font-size:30;
-text-align: left;
+    color: red;
+    font-size: 30;
+    text-align: left;
 }
 
 h1 {
-color: blue;
-font-size: 50;
-text-align: center;
+    color: blue;
+    font-size: 50;
+    text-align: center;
 }
 
-h2{
-color: green;
-font-size: 40;
-text-align: right;
+h2 {
+    color: green;
+    font-size: 40;
+    text-align: right;
 }
