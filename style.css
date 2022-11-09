@@ -1,6 +1,6 @@
 .cabecalho {
     border-bottom-style: solid;
-    background: greenyellow;
+    background: yellow;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
@@ -20,7 +20,7 @@
 
 .rodape {
     border-top-style: solid;
-    background: greenyellow;
+    background: yellow;
     margin-bottom: -8px;
     margin-left: -8px;
     margin-right: -8px;
@@ -98,4 +98,19 @@ h2 {
     color: green;
     font-size: 40;
     text-align: right;
+}
+   
+    #alunos  {
+     background: lightblue;
+}
+
+
+
+    #aluno {
+    font-size: 20px;
+    color: purple;
+    border-style: solid;
+    margin-right: 85%;
+    margin-top: 2px;
+    margin-bottom: -2px;
 }
